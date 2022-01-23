@@ -208,11 +208,84 @@ header .media-icons{
   color: #22b6d6;
   font-size: 45px;
   text-shadow: 2px 3px 4px #3a2c8c ;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .text-box p{
   text-align: center;
   padding:20px 30px;
 }
+@media (max-width:800px) {
+  .about-app{
+    flex-direction: column;
+    height: fit-content;
+  }
+  }
 
+/**app-details-bar */
+.app-details-bar{
+  height: 150px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  background: rgb(23,245,255);
+background: linear-gradient(191deg, rgba(23,245,255,1) 0%, rgba(34,182,214,1) 49%, rgba(58,44,140,1) 100%);
+}
+.total-downloads{
+  flex: 1;
+  
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.total-downloads h1{
+  font-weight: 600;
+  color: #f2f2f2;
+  font-size: 25px;
+  text-shadow: 2px 3px 4px #3a2c8c ;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.total-downloads .text{
+  padding: 50px;
+}
+.best-app{
+  flex: 1;
+  
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  
+}
+.experience{
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  
+}
+.best-app h1{
+  font-weight: 600;
+  color: #fff;
+  font-size: 25px;
+  text-shadow: 2px 3px 4px #3a2c8c ;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.best-app .text{
+  padding: 50px;
+}
 
+.experience h1{
+  font-weight: 600;
+  color: #fff;
+  font-size: 25px;
+  text-shadow: 2px 3px 4px #3a2c8c ;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.experience .text{
+  padding: 50px;
+}
+@media (max-width:800px) {
+  .app-details-bar{
+    flex-direction: column;
+    height: fit-content;
+  }
+  }

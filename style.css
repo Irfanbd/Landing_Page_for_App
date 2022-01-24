@@ -17,7 +17,7 @@ background: linear-gradient(191deg, rgba(23,245,255,1) 0%, rgba(34,182,214,1) 49
   background: #a3f5ec;
 }
 header nav{
-  position: fixed;
+  position: absolute;
   width: 100%;
   left: 0;
   top: 0;

@@ -224,6 +224,7 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 /**app-details-bar */
 .app-details-bar{
   height: 150px;
+  border-radius: 20px;
   display: flex;
   margin: 0 auto;
   justify-content: center;
@@ -289,3 +290,6 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
     height: fit-content;
   }
   }
+ 
+
+/** */

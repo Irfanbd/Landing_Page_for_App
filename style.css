@@ -640,8 +640,8 @@ background: linear-gradient(191deg, rgba(151,186,210,1) 0%, rgba(159,201,231,1) 
 .footer-logo{
   height: 300px;
   margin-top: 30px;
-  background: rgb(42,156,59);
-  background: linear-gradient(90deg, rgba(42,156,59,1) 0%, rgba(238,236,127,1) 51%, rgba(199,240,246,1) 100%);
+  background: rgb(23,245,255);
+  background: linear-gradient(191deg, rgba(23,245,255,1) 0%, rgba(34,182,214,1) 49%, rgba(58,44,140,1) 100%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -662,38 +662,3 @@ background: linear-gradient(191deg, rgba(151,186,210,1) 0%, rgba(159,201,231,1) 
   text-shadow: 2px 3px 4px #df3a25;
 }
 
-.footer-items{
-  height: 250px;
-  display: flex;
-  background: red;
-  justify-content: center;
-  align-items: center;
-
-}
-.items-1
-{
-  display: flex;
-  flex: 1;
-  background: black;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 60px;
-  margin: 0 auto;
-
-}
-.items-1 i{
-  margin: 10px;
-}
-.items-2
-{
-  flex: 1;
-  background: #fff;
-
-}
-.items-3
-{
-  flex: 1;
-  background: black;
-
-}
